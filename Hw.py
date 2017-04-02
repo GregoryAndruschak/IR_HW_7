@@ -251,7 +251,7 @@ def main():
     make_dictionary_and_ii(books)
     while True:
         print('Enter your query: ')
-        query = input()
+        query = input().lower()
         res = top_books(query)
         print(res)
 
